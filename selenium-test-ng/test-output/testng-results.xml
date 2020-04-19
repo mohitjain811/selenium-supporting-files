@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20923" started-at="2020-04-15T19:37:28Z" finished-at="2020-04-15T19:37:49Z">
+    <groups>
+    </groups>
+    <test name="UnitTesting" duration-ms="20923" started-at="2020-04-15T19:37:28Z" finished-at="2020-04-15T19:37:49Z">
+      <class name="testngpackage.ParallelTestNGTestScripts">
+        <test-method status="PASS" signature="parallelTestScript4()[pri:0, instance:testngpackage.ParallelTestNGTestScripts@3bf400]" name="parallelTestScript4" duration-ms="20907" started-at="2020-04-15T15:37:28Z" description="testNgCase4" finished-at="2020-04-15T15:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelTestScript4 -->
+        <test-method status="PASS" signature="parallelTestScript1()[pri:0, instance:testngpackage.ParallelTestNGTestScripts@3bf400]" name="parallelTestScript1" duration-ms="19236" started-at="2020-04-15T15:37:28Z" description="testNgCase1" finished-at="2020-04-15T15:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelTestScript1 -->
+        <test-method status="PASS" signature="parallelTestScript2()[pri:0, instance:testngpackage.ParallelTestNGTestScripts@3bf400]" name="parallelTestScript2" duration-ms="16615" started-at="2020-04-15T15:37:28Z" description="testNgCase2" finished-at="2020-04-15T15:37:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelTestScript2 -->
+        <test-method status="PASS" signature="parallelTestScript3()[pri:0, instance:testngpackage.ParallelTestNGTestScripts@3bf400]" name="parallelTestScript3" duration-ms="14375" started-at="2020-04-15T15:37:28Z" description="testNgCase3" finished-at="2020-04-15T15:37:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelTestScript3 -->
+      </class> <!-- testngpackage.ParallelTestNGTestScripts -->
+    </test> <!-- UnitTesting -->
+  </suite> <!-- Suite -->
+</testng-results>
