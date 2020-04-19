@@ -1,0 +1,49 @@
+<html>
+   <head>
+      <title>Selenium Webdriver Test Page</title>   
+  	  <script>
+	  function alertPopup(){
+	    alert("This is an alert box!");
+	  }
+	  function confirmPopup(){
+	    confirm("Do you want to proceed, Please confirm?");
+	  }
+	  function promptPopup(){
+		prompt("Hello Selenium WebDriver Tutorials!");
+	  }
+	  </script>
+   </head>
+   <body bgcolor="yellow">
+   <div align="center">
+<form>
+  <b>Name:</b><br><input type="text" name="firstname"><br>
+  <b>Password:</b><br><input type="password" name="password"><br><br>
+  <b>Sex:</b>
+  <input type="radio" name="gender" value="male" checked> Male
+  <input type="radio" name="gender" value="female"> Female<br><br>
+  <b>Possess Vehicle:</b>
+  <select name="vehicle">
+	<option value="Sedan">Sedan</option>
+	<option value="SUV">SUV</option>
+	<option value="Van">Van</option>
+	<option value="Truck">Truck</option>
+  </select><br><br>
+  <b>Profession:</b>
+    <select multiple=6 name="profession">
+	<option value="Dean">Dean</option>
+	<option value="Engineer">Engineer</option>
+	<option value="PublicServant">PublicServant</option>
+	<option value="Doctor">Doctor</option>
+	<option value="Lawyer">Lawyer</option>
+	<option value="Teacher">Teacher</option>
+  </select><br><br>
+  <b>Comments:</b>
+  <textarea name="comments" rows="4" col="100"></textarea><br><br>
+  <a href="http://www.google.com">Google Search here</a><br><br>
+  <input type="submit" name="button" value="Submit" onclick="alertPopup()">
+  <input type="submit" name="confirmButton" value="Confirm" onclick="confirmPopup()">
+  <input type="submit" name="promptButton" value="Prompt" onclick="promptPopup()">
+</form>
+</div>
+   </body>
+</html>
